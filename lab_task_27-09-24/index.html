@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Information Form</title>
+    </head>
+    <style>
+        body {
+            background-color: lightblue;
+            border: 1px solid black;
+            margin: 25px 30px 20px ;
+            display: flex;
+            justify-content: center;
+        }
+        .ayman {
+            width: 500px;
+            border: 15px solid black;
+            padding: 30px;
+            margin: 25px;
+        }
+    </style>
+    <body>
+        <div class="ayman">
+            <form action="">
+                <h1>Information Form</h1>
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="profile-picture">Profile picture</label><br>
+                <input type="file" id="profile-picture" name="profile-picture"><br>
+                <label for="nid">NID Number</label><br>
+                <input type="text" id="nid" name="nid"><br>
+                <label for="email">Email</label><br>
+                <label for="phone">Phone</label><br>
+                <input type="tel" id="phone" name="phone"><br>
+                <label for="address">Address</label><br>
+                <textarea name="address" id="address" cols="30" rows="5"></textarea><br>
+                <label>Gender</label><br>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="Other">
+                <label for="other">Other</label><br>
+                <label for="division">Division</label><br>
+                <select name="division" id="division">
+                    <option value="Dhaka">Dhaka</option>
+                    <option value="Mymenshing">Mymenshing</option>
+                    <option value="Rajshahi">Rajshahi</option>
+                </select><br>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+   
+</html>
